@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="shop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="shop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/junit-4.8.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-pool-1.5.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-beanutils-1.9.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-collections-3.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/lib.zip" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/jedis-2.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/jaxen-1.1-beta-6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-pool2-2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

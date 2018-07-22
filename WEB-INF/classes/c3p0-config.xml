@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="user">root</property>
+		<property name="password">1282049721</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://140.143.25.35:3306/shop?useUnicode=true&amp;characterEncoding=UTF8</property>
+	</default-config> 
+</c3p0-config> 
